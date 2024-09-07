@@ -14,7 +14,7 @@ header {
   padding: 30px;
 }
 
-header h1, #about-us h1, #contact-us h1{
+header h1,#our-menu h1 ,#about-us h1, #contact-us h1{
   font-family: "Playfair Display SC", serif;
   font-weight: 900;
   font-style: normal;
@@ -61,25 +61,97 @@ nav ul li a{
     color: black;
 }
 /* our menu section  */
+.menu{
+  border: 1px solid black;
+  text-align: center;
+}
+.menu h2{
+  font-family: lato, serif;
+  padding: 10px 0;
+  text-align: left;
+}
 
+.card{
+  border: 1px solid black;
+  width: 250px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: lato, sans-serif;
+  border-radius: 4px;
+  display: inline-block;
+}
+.card-img-top{
+  max-width: 100%;
+}
+.card h3{
+  padding: 10px 0;
+}
+.card p{
+  line-height: 1.5;
+}
+.card .price {
+  font-weight: bold;
+  font-style: italic;
+}
+.card button{
+  width: 100%;
+  background-color: #49281a;
+  color: #f0e2c5;
+  padding: 10px 0;
+  border: none;
+  border-radius: 4px;
+}
 /* about-us section  */
-#about-us, #contact-us, footer {
+#our-menu ,#about-us, #contact-us, footer {
 border: 1px solid #000;
-background-color: orange;
+/* background-color: orange; */
 width: 90%;
 margin: 30px auto;
 padding: 10px;
 }
 
 #about-us p, #contact-us p, footer p{
-  background-color: orangered;
+  /* background-color: orangered; */
     margin: 10px 0;
     line-height: 1.5;
     font-family: "Lato", sans-serif;
     text-align: justify;
 
 }
+/* #contact-us section  */
+form{
+  border: 1px solid;
+  font-family: "Lato", sans-serif;
+  width: 75%;
+  margin: 10px auto;
 
+}
+form div{
+  padding: 10px 0;
+}
+.form-label{
+  /* background-color: red; */
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+.form-control{
+  width: 60%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+.btn-submit{
+  display: block;
+  width: 200px;
+  height: 40px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
+}
 footer p{
     text-align: center;
     font-size: 0.8em;
